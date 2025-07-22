@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <title>Hubungi Kami – Dapur Hemat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Ada pertanyaan atau kerja sama? Kirim pesan langsung ke tim Dapur Hemat."/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--primary:#ff6b00;--bg:#fffdfa;--text:#222}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:var(--primary);color:#fff;padding:1rem}
+    nav{max-width:1000px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+    nav a{color:#fff;margin-left:1rem;text-decoration:none;font-weight:600}
+    .container{max-width:1000px;margin:2rem auto;padding:0 1rem}
+    h1{margin-bottom:1rem}
+    label{display:block;margin:.5rem 0 .25rem;font-weight:600}
+    input,textarea{width:100%;padding:.6rem;border:1px solid #ccc;border-radius:4px;font-family:inherit}
+    button{background:var(--primary);color:#fff;padding:.7rem 1.4rem;border:none;border-radius:4px;cursor:pointer;font-weight:600}
+    footer{background:#f3f3f3;text-align:center;padding:1rem;margin-top:2rem;font-size:.9rem}
+  </style>
+</head>
+
+<body>
+<header>
+  <nav>
+    <strong>Dapur Hemat</strong>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="container">
+  <h1>Hubungi Kami</h1>
+
+  <p>Ada pertanyaan, usulan produk yang ingin di-review, atau tawaran kerja sama? Kirim pesan lewat form di bawah ini dan kami akan membalas secepatnya.</p>
+
+  <!-- Ganti YOUR_FORM_ID dengan ID Formspree kamu (daftar gratis di https://formspree.io) -->
+  <form action="https://formspree.io/f/meozaoka" method="POST">
+    <label for="nama">Nama</label>
+    <input type="text" name="nama" id="nama" required>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="pesan">Pesan</label>
+    <textarea name="pesan" id="pesan" rows="5" required></textarea>
+
+    <button type="submit">Kirim Pesan</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 Dapur Hemat – Terima kasih sudang menghubungi kami.
+</footer>
+</body>
+</html>
