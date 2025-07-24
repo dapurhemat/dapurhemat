@@ -6,7 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="description" content="Temukan rice cooker, blender, dan alat dapur hemat listrik rekomendasi kami + tips menghemat tagihan listrik bulanan."/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style> ... sama seperti sebelumnya ... </style>
+  <style>
+    :root{--primary:#ff6b00;--bg:#fffdfa;--text:#222}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:var(--primary);color:#fff;padding:1.2rem 1rem;text-align:center}
+    nav{max-width:1000px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+    nav a{color:#fff;text-decoration:none;font-weight:600;margin-left:1rem}
+    .container{max-width:1000px;margin:2rem auto;padding:0 1rem}
+    .hero{display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:2rem}
+    .hero h1{font-size:2rem;margin-bottom:.5rem}
+    .hero p{margin-bottom:1rem;color:#555}
+    .btn{background:var(--primary);color:#fff;padding:.7rem 1.4rem;border:none;border-radius:4px;text-decoration:none;font-weight:600}
+    .card{display:flex;flex-direction:column;border:1px solid #e5e5e5;border-radius:8px;overflow:hidden;margin-bottom:1.5rem}
+    .card img{width:100%;height:220px;object-fit:cover}
+    .card-body{padding:1rem}
+    .card h3{margin-bottom:.5rem}
+    .price{color:var(--primary);font-weight:700;margin:.5rem 0}
+    footer{background:#f3f3f3;text-align:center;padding:1rem;margin-top:2rem;font-size:.9rem;color:#666}
+    @media(min-width:600px){ .hero{flex-direction:row;text-align:left} .hero img{max-width:320px;margin-left:1.5rem;border-radius:8px} .card{flex-direction:row} .card img{width:200px;height:auto} }
+  </style>
 </head>
 
 <body>
@@ -29,14 +48,14 @@
       <p>Kami tes & review alat dapur hemat daya agar kamu bisa masak enak tanpa bikin kantong bolong.</p>
       <a class="btn" href="blog.html">Baca Blog</a>
     </div>
-    <img src="images/rice-cooker.jpg" alt="Rice cooker Philips"/>
+    <img src="https://i.imgur.com/7iP2hTA.jpg" alt="Rice cooker hemat listrik"/>
   </div>
 
   <h2>Review Terbaru</h2>
 
   <!-- Rice Cooker -->
   <div class="card">
-    <img src="images/rice-cooker.jpg" alt="Rice cooker Philips">
+    <img src="https://i.imgur.com/7iP2hTA.jpg" alt="Rice cooker Philips">
     <div class="card-body">
       <h3>Rice Cooker Philips HD3115</h3>
       <p>Daya 300 W, memasak nasi 3 gelas hanya pakai 0,1 kWh. Cocok untuk kos-kosan!</p>
@@ -47,7 +66,7 @@
 
   <!-- Blender -->
   <div class="card">
-    <img src="images/blender.jpg" alt="Blender mini Miyako">
+    <img src="https://i.imgur.com/8YQbK9k.jpg" alt="Blender mini Miyako">
     <div class="card-body">
       <h3>Blender Mini Miyako BL-101</h3>
       <p>250 W, cukup untuk smoothie pagi. Hemat 40 % listrik vs blender besar.</p>
